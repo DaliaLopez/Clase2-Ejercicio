@@ -1,9 +1,9 @@
 body {
-    font-family: arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: white;
-    margin: 0px;
-
+    margin: 3px;
 }
+
 header {
     text-align: center;
 }
@@ -11,21 +11,27 @@ header {
 header img {
     width: 100%;
 }
-nav{
+
+nav {
     background: #242697;
     color: white;
     padding: 10px 0 10px 0;
     margin-top: 0px;
 }
-nav ul li{
+
+nav ul li {
     display: inline;
     margin: 0 25px;
-
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+a {
+    padding: 10px;
 }
 
 a:hover {
@@ -35,10 +41,91 @@ a:hover {
 }
 
 section {
-    padding: 50px;
+    padding-top: 50px;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 10px 200px 10px 200px;
 }
-#foto {
-    display: inline;
+
+.contenedor {
+    display: flex; /* Poner las imágenes en línea */
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    gap: 40px; /* Espacio entre las imágenes */
+  }
+
+.circulo {
+    width: 180px;  /* Tamaño del círculo */
+    height: 180px; /* Igual para mantener la forma */
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+  }
+
+#tienda {
+    padding: 30px;
+    background-color: rgb(234, 234, 234);
+    margin: 50px 200px 50px 200px;
+}
+
+.azul {
+    background-color: #3328a7;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.3) ;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: white;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.nombreproducto {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px; border-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 70px;
 }

@@ -12,10 +12,10 @@
         <img src="banner-principal.jpg" alt="">
         <nav>
             <ul>
-                <li><a href="index.html" target=_blank><i class="fa fa-cloud"></i>Inicio</a></li>
-                <li><a href="us.html" target=_blank><i class="fa fa-heart"></i>Quienes somos</a></li>
-                <li><a href="productos.html"><i class="fa fa-bars"></i>Productos</a></li>
-                <li><a href="contactanos.html"><i class="fa fa-file"></i>Contactanos</a></li>
+                <li><a href="#inicio" target=_blank><i class="fa fa-cloud">&nbsp;</i>Inicio</a></li>
+                <li><a href="#nosotros" target=_blank><i class="fa fa-heart">&nbsp;</i>Quienes somos</a></li>
+                <li><a href="#tienda"><i class="fa fa-bars">&nbsp;</i>Productos</a></li>
+                <li><a href="#contacto"><i class="fa fa-file">&nbsp;</i>Contactanos</a></li>
             </ul>
         </nav>
     </header>
@@ -29,27 +29,62 @@
 
     <section id="nosotros">
         <h2>Quienes somos</h2>
-        <p>En Huellitas, nos comprometemos a ofrecer el mejor cuidado para tus mascotas, brindando atención veterinaria de calidad con un enfoque cercano y profesional. Nuestro equipo de expertos está dedicado a garantizar la salud y bienestar de tus compañeros peludos, con un trato personalizado y soluciones eficaces para cada necesidad. Porque sabemos lo importante que es tu mascota para ti, trabajamos con amor y responsabilidad para que siempre se sientan cuidados y protegidos.</p>
+        <p>En Huellitas, nos comprometemos a ofrecer el mejor cuidado para tus mascotas, brindando atención veterinaria
+            de calidad con un enfoque cercano y profesional. Nuestro equipo de expertos está dedicado a garantizar la
+            salud y bienestar de tus compañeros peludos, con un trato personalizado y soluciones eficaces para cada
+            necesidad. Porque sabemos lo importante que es tu mascota para ti, trabajamos con amor y responsabilidad
+            para que siempre se sientan cuidados y protegidos.</p>
         <div class="contenedor">
             <div class="foto">
-                <img src="usuario-3.jpg">
+                <img src="usuario-3.jpg" alt="usuario1" class="circulo">
             </div>
             <div class="foto">
-                <img src="usuario-4.jpg">
+                <img src="usuario-4.jpg" alt="usuario2" class="circulo">
             </div>
         </div>
     </section>
 
+    <section id="tienda">
+        <h2>Nuestra tienda</h2>
+        <p>Explora nuestra gran diversidad de productos disponibles para el cuidado de tus mascotas</p>
+        <div class="productos">
+            <div class="producto">
+                <img src="producto1.jpg" alt="Correa de paseo">
+                <p class="nombreproducto"> Correo de paseo </p>
+                <button class="azul"><i class=" fa fa-shopping-cart">&nbsp;</i> Comprar </button>
+            </div>
+            <div class="producto">
+                <img src="producto2.jpg" alt="Alimento">
+                <p class="nombreproducto"> Alimento Balanceado </p>
+                <button class="azul"><i class=" fa fa-shopping-cart">&nbsp;</i> Comprar </button>
+            </div>
+            <div class="producto">
+                <img src="producto3.jpg" alt="Bolsa de popo">
+                <p class="nombreproducto"> Bolsa de popo </p>
+                <button class="azul"><i class=" fa fa-shopping-cart">&nbsp;</i> Comprar </button>
+            </div>
+        </div>
+    </section>
 
-    <p>Hace más de 10 años, un pequeño centro veterinario abrió sus puertas con el objetivo de ofrecer atención
-        especializada, profesional y cercana para todas las mascotas de la comunidad. Desde sus inicios, se ha enfocado
-        en brindar un servicio de salud integral para perros, gatos y otros animales, priorizando siempre su bienestar
-        físico y emocional. Con el tiempo, el centro ha crecido gracias al compromiso de su equipo de expertos y la
-        confianza de sus clientes, consolidándose como un referente en la atención veterinaria local.</p>
-    <h2>Misión</h2>
-    <h2>Visión</h2>
-    <p>Ser el centro veterinario líder en la comunidad, reconocido por su profesionalismo, innovación y compromiso con
-        el bienestar animal, estableciendo relaciones de confianza duraderas con cada cliente y mascota.</p>
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>Teléfono: (+57)3112223333</p>
+        <p>Email: centroveterinariohuellitas@outlook.com</p>
+
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre aquí"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="Escribe tu correo electrónico aquí"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea name="mensaje" rows="S" placeholder="Dejanos tus comentarios y dudas"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Veterinaria Huellitas. Todos los derechos reservados.</p>
+    </footer>
 </body>
 
 </html>
